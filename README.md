@@ -2,7 +2,7 @@
 
 **SplatMoveMR** ist ein Unity-Prototyp für die Darstellung und Interaktion mit 3D Gaussian Splats in einer Mixed-Reality-Umgebung auf der Meta Quest 3.
 
-Die Anwendung ermöglicht es, reale Objekte wie Möbelstücke oder Pflanzen als Gaussian Splats in der Passthrough-Ansicht der Quest 3 anzuzeigen. Die Objekte können im realen Raum bewegt, gedreht, skaliert und miteinander verglichen werden. Das Projekt wurde im Rahmen eines Studienprojekts entwickelt.
+Die Anwendung ermöglicht es, reale Objekte wie Möbelstücke oder Pflanzen als Gaussian Splats in der Passthrough-Ansicht der Quest 3 anzuzeigen. Die Splats können im realen Raum bewegt, gedreht, skaliert und miteinander verglichen werden. Das Projekt wurde im Rahmen eines Studienprojekts entwickelt.
 
 ## Projektidee
 
@@ -22,7 +22,7 @@ Der Prototyp kombiniert:
 - Darstellung von Gaussian Splats in Mixed Reality
 - Nutzung der Passthrough-Ansicht der Meta Quest 3
 - Wechsel zwischen mehreren Haupt-Splats
-- Bewegung des aktiven Objekts über den linken Stick
+- Bewegung des aktiven Splats über den linken Stick
 - Rotation und Höhenanpassung über den rechten Stick
 - Skalierung über die Trigger
 - Ein- und Ausblenden eines zusätzlichen Single-Splats
@@ -35,7 +35,7 @@ Der Prototyp kombiniert:
 1. ```MoveSplatVR.cs```
    - Hauptskript für die Steuerung der Gaussian Splats. Es verarbeitet Controller-Eingaben für Bewegung, Rotation, Skalierung, Höhenanpassung, Splat-Wechsel, Recenter-Funktion und Floor-Reset.
 2. ```SplatManagerSingle.cs```
-   - Verwaltet ein zusätzliches einzelnes Splat-Objekt, zum Beispiel eine Pflanze. Dieses Objekt kann unabhängig von den Haupt-Splats ein- und ausgeblendet werden.
+   - Verwaltet ein zusätzliches einzelnes Splat-Objekt, zum Beispiel eine Pflanze. Dieses Splat kann unabhängig von den Haupt-Splats ein- und ausgeblendet werden.
 3. ```VRHelpMenu.cs```
    - Steuert das Hilfemenü. Das Menü kann über die X-Taste geöffnet und geschlossen werden und wird als World-Space-Canvas vor dem Nutzer platziert.
 4. ```StartupHint.cs```
@@ -118,22 +118,22 @@ Nach dem Build wird die Anwendung auf der Quest 3 gestartet. In der Passthrough-
 > [!IMPORTANT]
 > Bevor Sie die Anwendung auf der Meta Quest 3 starten, gehen Sie unter Einstellungen auf **Umgebung einrichten**, und wählen Sie die **Freiraum** Option, um den Raum Ihrer Wohnung darzustellen. Anschließend können Sie im Menü der Meta Quest 3, links unter Unbekannten Quellen die SplatMoveMR.apk starten.
 
-Beim Start der App erscheint ein kurzer Hinweis, dass das Hilfemenü über die X-Taste geöffnet werden kann. Danach kann das aktive Objekt mit den Controllern im Raum bewegt, gedreht, skaliert und neu platziert werden.
+Beim Start der App erscheint ein kurzer Hinweis, dass das Hilfemenü über die X-Taste geöffnet werden kann. Danach kann das aktive Splat mit den Controllern im Raum bewegt, gedreht, skaliert und neu platziert werden.
 Die reale Umgebung bleibt durch Passthrough sichtbar. Dadurch können die Gaussian Splats direkt im eigenen Raum betrachtet und positioniert werden.
 
 ## Steuerung
 
 | Eingabe | Funktion |
 |---|---|
-| Linker Stick | Aktives Objekt auf der Bodenebene bewegen |
-| Rechter Stick links/rechts | Aktives Objekt drehen |
-| Rechter Stick hoch/runter | Höhe des aktiven Objekts ändern |
-| Linker Trigger | Objekt verkleinern |
-| Rechter Trigger | Objekt vergrößern |
+| Linker Stick | Aktives Splat auf der Bodenebene bewegen |
+| Rechter Stick links/rechts | Aktives Splat drehen |
+| Rechter Stick hoch/runter | Höhe des aktiven Splats ändern |
+| Linker Trigger | Splat verkleinern |
+| Rechter Trigger | Splat vergrößern |
 | A-Taste | Zwischen Haupt-Splats wechseln |
-| B-Taste | Aktives Objekt vor dem Nutzer platzieren |
+| B-Taste | Aktives Splat vor dem Nutzer platzieren |
 | X-Taste | Hilfemenü öffnen oder schließen |
-| Y-Taste | Objekt auf Floor-Level zurücksetzen |
+| Y-Taste | Splat auf Floor-Level zurücksetzen |
 | Linker Grip | Single-Splat ein- oder ausblenden |
 | Rechter Grip | Steuerung zwischen Main-Splat und Single-Splat wechseln |
 
