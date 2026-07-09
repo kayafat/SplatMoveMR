@@ -105,6 +105,10 @@ Android
 ```text
 Build And Run
 ```
+
+>[!NOTE]
+>Wenn nach Build And Run mehrere Pop-ups auftreten, bestätigen Sie diese mit Yes.
+
 Nach dem Build wird die Anwendung auf der Quest 3 gestartet. In der Passthrough-Ansicht sollten die Gaussian Splats in der realen Umgebung sichtbar sein.
 
 ---
