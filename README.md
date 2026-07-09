@@ -110,6 +110,10 @@ Nach dem Build wird die Anwendung auf der Quest 3 gestartet. In der Passthrough-
 ---
 
 # 3. Nutzung der Anwendung
+
+> [!IMPORTANT]
+> Bevor Sie die Anwendung auf der Meta Quest 3 starten, gehen Sie unter Einstellungen auf **Umgebung einrichten**, und wählen Sie die **Freiraum** Option, um den Raum Ihrer Wohnung darzustellen. Anschließend können Sie im Menü der Meta Quest 3, links unter Unbekannten Quellen die SplatMoveMR.apk starten.
+
 Beim Start der App erscheint ein kurzer Hinweis, dass das Hilfemenü über die X-Taste geöffnet werden kann. Danach kann das aktive Objekt mit den Controllern im Raum bewegt, gedreht, skaliert und neu platziert werden.
 Die reale Umgebung bleibt durch Passthrough sichtbar. Dadurch können die Gaussian Splats direkt im eigenen Raum betrachtet und positioniert werden.
 
