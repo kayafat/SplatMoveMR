@@ -500,7 +500,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -1345,7 +1345,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -3043,7 +3043,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -8444,7 +8444,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -8626,7 +8626,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -9670,7 +9670,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -10661,7 +10661,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
@@ -12218,7 +12218,7 @@ MonoBehaviour:
   RenderOrder: 0
   Brightness: 1
   SplatDownscaleFactor: 0
-  GammaToLinear: 0
+  GammaToLinear: 1
   AsyncUpload: 0
   RenderBeforeUploadComplete: 1
   CutoutsUpdateBounds: 1
