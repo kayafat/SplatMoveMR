@@ -149,6 +149,11 @@ Falls die Quest 3 in den Build Settings nicht angezeigt wird, sollten folgende P
 - Android Build Support ist in Unity installiert
 - Android ist als Build-Plattform ausgewählt
 
+# Weiteres...
+
+- [Python Skript (Video in Bilder) - Download Link](https://drive.google.com/drive/folders/1D0qAIQ_KiddUhJhU-htb9zm4FLrNt16_?usp=sharing)
+- [Gesamtworkflow als Video (Guide)](https://www.youtube.com/watch?v=2pJlNAbRoOs)
+
 ### Autor
 **Fatih Kaya, Mason Schönherr**
 >Studienprojekt: Gaussian Splatting / Mixed Reality (Hochschule Esslingen)
